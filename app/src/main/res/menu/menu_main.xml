@@ -1,0 +1,18 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="id.ac.poliban.roman.epldevelopment.MainActivity">
+
+    <item android:id="@+id/mi_action_row"
+        android:title="@string/row"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mi_action_grid"
+        android:title="@string/grid"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mi_action_card"
+        android:title="@string/card"
+        app:showAsAction="never" />
+
+</menu>
