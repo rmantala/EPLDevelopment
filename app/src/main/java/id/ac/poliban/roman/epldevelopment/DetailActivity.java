@@ -85,7 +85,7 @@ public class DetailActivity extends AppCompatActivity {
 
     private void saveAction() {
         if(etClubName.getText().toString().isEmpty() || etDescription.getText().toString().isEmpty()){
-            Toast.makeText(this, "Club Name dan Description tidak boleh kosong", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "club name & description cannot null!", Toast.LENGTH_SHORT).show();
             return;
         }
 
